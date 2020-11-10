@@ -253,7 +253,7 @@ namespace test_pratico_master
                         {
                             break;
                         }
-
+                    }
                 case "cidadeD":
 
                     Console.WriteLine("Qual cidade você irá  (ex: cidadeC,etc..)");
