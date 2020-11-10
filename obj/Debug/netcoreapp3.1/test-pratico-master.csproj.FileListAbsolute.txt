@@ -1,0 +1,13 @@
+C:\Users\Gabriel\Documents\Projetos\test-pratico-master\obj\Debug\netcoreapp3.1\test-pratico-master.csprojAssemblyReference.cache
+C:\Users\Gabriel\Documents\Projetos\test-pratico-master\obj\Debug\netcoreapp3.1\test-pratico-master.AssemblyInfoInputs.cache
+C:\Users\Gabriel\Documents\Projetos\test-pratico-master\obj\Debug\netcoreapp3.1\test-pratico-master.AssemblyInfo.cs
+C:\Users\Gabriel\Documents\Projetos\test-pratico-master\obj\Debug\netcoreapp3.1\test-pratico-master.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\Documents\Projetos\test-pratico-master\bin\Debug\netcoreapp3.1\test-pratico-master.exe
+C:\Users\Gabriel\Documents\Projetos\test-pratico-master\bin\Debug\netcoreapp3.1\test-pratico-master.deps.json
+C:\Users\Gabriel\Documents\Projetos\test-pratico-master\bin\Debug\netcoreapp3.1\test-pratico-master.runtimeconfig.json
+C:\Users\Gabriel\Documents\Projetos\test-pratico-master\bin\Debug\netcoreapp3.1\test-pratico-master.runtimeconfig.dev.json
+C:\Users\Gabriel\Documents\Projetos\test-pratico-master\bin\Debug\netcoreapp3.1\test-pratico-master.dll
+C:\Users\Gabriel\Documents\Projetos\test-pratico-master\bin\Debug\netcoreapp3.1\test-pratico-master.pdb
+C:\Users\Gabriel\Documents\Projetos\test-pratico-master\obj\Debug\netcoreapp3.1\test-pratico-master.dll
+C:\Users\Gabriel\Documents\Projetos\test-pratico-master\obj\Debug\netcoreapp3.1\test-pratico-master.pdb
+C:\Users\Gabriel\Documents\Projetos\test-pratico-master\obj\Debug\netcoreapp3.1\test-pratico-master.genruntimeconfig.cache
