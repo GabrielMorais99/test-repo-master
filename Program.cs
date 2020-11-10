@@ -17,12 +17,13 @@ namespace test_pratico_master
             int dEB = 3;
             int dAE = 7;
 
-            String cidAm;
+            string cidAm;
             string resp;
-            String cidGo;
+            string cidGo;
             string cidGoGo;
             string cidGoGoGo;
             string cidGoGoGoGo;
+
             Console.WriteLine("Qual cidade você está:  (ex: cidadeA,etc..) ");
             cidAm = Console.ReadLine();
 
@@ -162,7 +163,6 @@ namespace test_pratico_master
                         Console.WriteLine("Deseja adicionar mais uma rota? sim digite 's'");
                         cidGoGo = Console.ReadLine();
                     }
-
                     break;
 
                 case "cidadeC":
@@ -172,36 +172,87 @@ namespace test_pratico_master
 
                     if (cidGo == "cidadeA")
                     {
-                        Console.WriteLine("se houver , Distancia da rota é 5 , cidadeB até cidadeB ");
+                        Console.WriteLine("se houver , Distancia da rota é 5 , cidadeC até cidadeA ");
                         Console.WriteLine("Deseja adicionar mais uma rota? sim digite 's'");
-                        cidGoGo = Console.ReadLine();
+                        resp = Console.ReadLine();
 
+                        if (resp == "s")
+                        {
+                            Console.WriteLine("Qual seria esta rota? : (ex: cidadeA,etc..)");
+                            cidGoGo = Console.ReadLine();
+                            if (cidGoGo == "cidadeC")
+                            {
+                                Console.WriteLine("Serão duas rotas possíveis: C-D-C (2 paradas) e C-E-B-C (3 paradas).");
+
+                            }
+                        }
+                        else
+                        {
+                            break;
+                        }
 
                     }
                     else if (cidGo == "cidadeB")
                     {
                         Console.WriteLine("Distancia da rota é 4 , cidadeC até cidadeC");
                         Console.WriteLine("Deseja adicionar mais uma rota? sim digite 's'");
-                        cidGoGo = Console.ReadLine();
+                        resp = Console.ReadLine();
+                        if (resp == "s")
+                        {
+                            Console.WriteLine("Qual seria esta rota? : (ex: cidadeA,etc..)");
+                            cidGoGo = Console.ReadLine();
+                            if (cidGoGo == "cidadeC")
+                            {
+                                Console.WriteLine("Serão duas rotas possíveis: C-D-C (2 paradas) e C-E-B-C (3 paradas).");
+
+                            }
+                        }
+                        else
+                        {
+                            break;
+                        }
+
+
                     }
                     else if (cidGo == "cidadeD")
                     {
                         Console.WriteLine("Distancia da rota é 5 , cidadeC até cidadeD");
                         Console.WriteLine("Deseja adicionar mais uma rota? sim digite 's'");
-                        cidGoGo = Console.ReadLine();
+                        resp = Console.ReadLine();
+                        if (resp == "s")
+                        {
+                            Console.WriteLine("Qual seria esta rota? : (ex: cidadeA,etc..)");
+                            cidGoGo = Console.ReadLine();
+                            if (cidGoGo == "cidadeC")
+                            {
+                                Console.WriteLine("Serão duas rotas possíveis: C-D-C (2 paradas) e C-E-B-C (3 paradas).");
+
+                            }
+                        }
+                        else
+                        {
+                            break;
+                        }
                     }
                     else if (cidGo == "cidadeE")
                     {
                         Console.WriteLine("Distancia da rota é 7 , cidadeC até cidadeE");
                         Console.WriteLine("Deseja adicionar mais uma rota? sim digite 's'");
-                        cidGoGo = Console.ReadLine();
-                    }
-                    else
-                    {
-                        Console.WriteLine("Valor Inválido , ou rota Inválida");
-                    }
+                        resp = Console.ReadLine();
+                        if (resp == "s")
+                        {
+                            Console.WriteLine("Qual seria esta rota? : (ex: cidadeA,etc..)");
+                            cidGoGo = Console.ReadLine();
+                            if (cidGoGo == "cidadeC")
+                            {
+                                Console.WriteLine("Serão duas rotas possíveis: C-D-C (2 paradas) e C-E-B-C (3 paradas).");
 
-                    break;
+                            }
+                        }
+                        else
+                        {
+                            break;
+                        }
 
                 case "cidadeD":
 
@@ -211,31 +262,86 @@ namespace test_pratico_master
                     {
                         Console.WriteLine("se houver , Distancia da rota é 5 , cidadeB até cidadeB ");
                         Console.WriteLine("Deseja adicionar mais uma rota? sim digite 's'");
-                        cidGoGo = Console.ReadLine();
+                        resp = Console.ReadLine();
+                        if (resp == "s")
+                        {
+                            Console.WriteLine("Qual seria esta rota? : (ex: cidadeA,etc..)");
+                            cidGoGo = Console.ReadLine();
+                            if (cidGoGo == "cidadeC")
+                            {
+                                Console.WriteLine("Serão duas rotas possíveis: C-D-C (2 paradas) e C-E-B-C (3 paradas).");
+
+                            }
+                        }
+                        else
+                        {
+                            break;
+                        }
                     }
                     else if (cidGo == "cidadeC")
                     {
                         Console.WriteLine("Distancia da rota é 4 , cidadeB até cidadeC");
                         Console.WriteLine("Deseja adicionar mais uma rota? sim digite 's'");
-                        cidGoGo = Console.ReadLine();
+                        resp = Console.ReadLine();
+                        if (resp == "s")
+                        {
+                            Console.WriteLine("Qual seria esta rota? : (ex: cidadeA,etc..)");
+                            cidGoGo = Console.ReadLine();
+                            if (cidGoGo == "cidadeC")
+                            {
+                                Console.WriteLine("Serão duas rotas possíveis: C-D-C (2 paradas) e C-E-B-C (3 paradas).");
+
+                            }
+                        }
+                        else
+                        {
+                            break;
+                        }
                     }
                     else if (cidGo == "cidadeD")
                     {
                         Console.WriteLine("Distancia da rota é 5 , cidadeB até cidadeD");
                         Console.WriteLine("Deseja adicionar mais uma rota? sim digite 's'");
-                        cidGoGo = Console.ReadLine();
+                        resp = Console.ReadLine();
+                        if (resp == "s")
+                        {
+                            Console.WriteLine("Qual seria esta rota? : (ex: cidadeA,etc..)");
+                            cidGoGo = Console.ReadLine();
+                            if (cidGoGo == "cidadeC")
+                            {
+                                Console.WriteLine("Serão duas rotas possíveis: C-D-C (2 paradas) e C-E-B-C (3 paradas).");
+
+                            }
+                        }
+                        else
+                        {
+                            break;
+                        }
                     }
                     else if (cidGo == "cidadeE")
                     {
                         Console.WriteLine("Distancia da rota é 7 , cidadeB até cidadeE");
                         Console.WriteLine("Deseja adicionar mais uma rota? sim digite 's'");
-                        cidGoGo = Console.ReadLine();
+                        resp = Console.ReadLine();
+                        if (resp == "s")
+                        {
+                            Console.WriteLine("Qual seria esta rota? : (ex: cidadeA,etc..)");
+                            cidGoGo = Console.ReadLine();
+                            if (cidGoGo == "cidadeC")
+                            {
+                                Console.WriteLine("Serão duas rotas possíveis: C-D-C (2 paradas) e C-E-B-C (3 paradas).");
+
+                            }
+                        }
+                        else
+                        {
+                            break;
+                        }
                     }
                     else
                     {
                         Console.WriteLine("Valor Inválido , ou rota Inválida");
                     }
-
                     break;
 
                 case "cidadeE":
@@ -247,7 +353,6 @@ namespace test_pratico_master
                         Console.WriteLine("se houver , Distancia da rota é 5 , cidadeB até cidadeB ");
                         Console.WriteLine("Deseja adicionar mais uma rota? sim digite 's'");
                         cidGoGo = Console.ReadLine();
-
                     }
                     else if (cidGo == "cidadeC")
                     {
@@ -266,14 +371,11 @@ namespace test_pratico_master
                         Console.WriteLine("Distancia da rota é 7 , cidadeB até cidadeE");
                         Console.WriteLine("Deseja adicionar mais uma rota? sim digite 's'");
                         cidGoGo = Console.ReadLine();
-
-
                     }
                     else
                     {
                         Console.WriteLine("Valor Inválido , ou rota Inválida");
                     }
-
                     break;
             }
         }
