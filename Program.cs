@@ -41,7 +41,7 @@ namespace test_pratico_master
 
                         if (resp == "s")
                         {
-                            Console.WriteLine("Qual seria esta rota? :");
+                            Console.WriteLine("Qual seria esta rota? : (ex: cidadeA,etc..)");
                             cidGoGo = Console.ReadLine();
                             if (cidGoGo == "cidadeC")
                             {
@@ -75,7 +75,7 @@ namespace test_pratico_master
 
                         if (resp == "s")
                         {
-                            Console.WriteLine("Qual seria esta rota? :");
+                            Console.WriteLine("Qual seria esta rota? : (ex: cidadeA,etc..)");
                             cidGoGo = Console.ReadLine();
                             if (cidGoGo == "cidadeC")
                             {
@@ -104,7 +104,6 @@ namespace test_pratico_master
 
                     Console.WriteLine("Qual cidade você irá  (ex: cidadeA,etc..)");
                     cidGo = Console.ReadLine();
-
 
                     if (cidGo == "cidadeA")
                     {
