@@ -33,7 +33,6 @@ namespace test_pratico_master
 
                     Console.WriteLine("Qual cidade você irá  (ex: cidadeA,etc..)");
                     cidGo = Console.ReadLine();
-
                     if (cidGo == "cidadeB")
                     {
                         Console.WriteLine("Distancia da rota é 5 , cidadeA até cidadeB ");
@@ -60,14 +59,12 @@ namespace test_pratico_master
                         }
 
                     }
-
                     else if (cidGo == "cidadeC")
                     {
                         Console.WriteLine("Distancia da rota é 9 , cidadeA até cidadeC");
                         Console.WriteLine("Deseja adicionar mais uma rota? sim digite 's'");
                         cidGoGo = Console.ReadLine();
                     }
-
                     else if (cidGo == "cidadeD")
                     {
                         Console.WriteLine("Distancia da rota é 5 , cidadeA até cidadeD");
@@ -91,28 +88,36 @@ namespace test_pratico_master
                     }
                     else if (cidGo == "cidadeE")
                     {
-                        Console.WriteLine("Distancia da rota é 7 , cidadeA até cidade");
-                        Console.WriteLine("Deseja adicionar mais uma rota? sim digite 's'");
+                        Console.WriteLine("Distancia da rota é 7 , cidadeA até cidade cidadeE\n");
+                        Console.WriteLine("Deseja adicionar mais uma rota? sim digite 's' ");
                         resp = Console.ReadLine();
+
                         if (resp == "s")
                         {
                             Console.WriteLine("Qual seria esta rota? : (ex: cidadeA,etc..)");
                             cidGoGo = Console.ReadLine();
+
                             if (cidGoGo == "cidadeB")
                             {
-                                Console.WriteLine("Distancia da rota é 10 , cidadeA até cidadeE ao cidade C");
+                                Console.WriteLine("Distancia da rota é 10 , cidadeA até cidadeE ao cidade C \n");
                                 Console.WriteLine("Digite a proxima rota (ex: cidadeA,etc..)");
                                 cidGoGoGo = Console.ReadLine();
-                                if (cidGoGo == "cidadeC")
+
+                                if (cidGoGoGo == "cidadeC")
                                 {
-                                    Console.WriteLine("Distancia da rota é 14 , cidadeA até cidadeE cidadeB  ao cidade C");
+                                    Console.WriteLine("Distancia da rota é 14 , cidadeA até cidadeE cidadeB  ao cidade C \n");
                                     Console.WriteLine("Digite a proxima rota (ex: cidadeA,etc..)");
                                     cidGoGoGoGo = Console.ReadLine();
-                                    if (cidGoGo == "cidadeD")
+
+                                    if (cidGoGoGoGo == "cidadeD")
                                     {
-                                        Console.WriteLine("Distancia da rota é 22 , cidadeA até cidadeE e cidadeB ao cidade C e cidade D");
+                                        Console.WriteLine("Distancia da rota é 22 , cidadeA até cidadeE e cidadeB ao cidade C e cidade D \n");
                                     }
                                 }
+                            }
+                            else if (cidGoGo == "cidadeD")
+                            {
+                                Console.WriteLine("Rota não existente \n");
                             }
                         }
                     }
