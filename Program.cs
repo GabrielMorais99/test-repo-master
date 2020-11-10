@@ -137,31 +137,31 @@ namespace test_pratico_master
                     {
                         Console.WriteLine("se houver , Distancia da rota é 5 , cidadeB até cidadeB ");
                         Console.WriteLine("Deseja adicionar mais uma rota? sim digite 's'");
-                        cidGoGo = Console.ReadLine();
+                        resp = Console.ReadLine();
                     }
                     else if (cidGo == "cidadeC")
                     {
                         Console.WriteLine("Distancia da rota é 4 , cidadeB até cidadeC");
                         Console.WriteLine("Deseja adicionar mais uma rota? sim digite 's'");
-                        cidGoGo = Console.ReadLine();
+                        resp = Console.ReadLine();
                     }
                     else if (cidGo == "cidadeD")
                     {
                         Console.WriteLine("Distancia da rota é 5 , cidadeB até cidadeD");
                         Console.WriteLine("Deseja adicionar mais uma rota? sim digite 's'");
-                        cidGoGo = Console.ReadLine();
+                        resp = Console.ReadLine();
                     }
                     else if (cidGo == "cidadeE")
                     {
                         Console.WriteLine("Distancia da rota é 7 , cidadeB até cidadeE");
                         Console.WriteLine("Deseja adicionar mais uma rota? sim digite 's'");
-                        cidGoGo = Console.ReadLine();
+                        resp = Console.ReadLine();
                     }
                     else
                     {
                         Console.WriteLine("Valor Inválido , ou rota Inválida");
                         Console.WriteLine("Deseja adicionar mais uma rota? sim digite 's'");
-                        cidGoGo = Console.ReadLine();
+                        resp = Console.ReadLine();
                     }
                     break;
 
@@ -183,14 +183,12 @@ namespace test_pratico_master
                             if (cidGoGo == "cidadeC")
                             {
                                 Console.WriteLine("Serão duas rotas possíveis: C-D-C (2 paradas) e C-E-B-C (3 paradas).");
-
                             }
                         }
                         else
                         {
                             break;
                         }
-
                     }
                     else if (cidGo == "cidadeB")
                     {
@@ -204,15 +202,12 @@ namespace test_pratico_master
                             if (cidGoGo == "cidadeC")
                             {
                                 Console.WriteLine("Serão duas rotas possíveis: C-D-C (2 paradas) e C-E-B-C (3 paradas).");
-
                             }
                         }
                         else
                         {
                             break;
                         }
-
-
                     }
                     else if (cidGo == "cidadeD")
                     {
@@ -254,6 +249,8 @@ namespace test_pratico_master
                             break;
                         }
                     }
+                    break;
+
                 case "cidadeD":
 
                     Console.WriteLine("Qual cidade você irá  (ex: cidadeC,etc..)");
