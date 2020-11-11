@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gabriel\\Documents\\Projetos\\test-pratico-master\\test-pratico-master.csproj": {}
+    "c:\\Users\\Gabriel\\Documents\\Projetos\\test-pratico-master\\test-pratico-master.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gabriel\\Documents\\Projetos\\test-pratico-master\\test-pratico-master.csproj": {
+    "c:\\Users\\Gabriel\\Documents\\Projetos\\test-pratico-master\\test-pratico-master.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gabriel\\Documents\\Projetos\\test-pratico-master\\test-pratico-master.csproj",
+        "projectUniqueName": "c:\\Users\\Gabriel\\Documents\\Projetos\\test-pratico-master\\test-pratico-master.csproj",
         "projectName": "test-pratico-master",
-        "projectPath": "C:\\Users\\Gabriel\\Documents\\Projetos\\test-pratico-master\\test-pratico-master.csproj",
+        "projectPath": "c:\\Users\\Gabriel\\Documents\\Projetos\\test-pratico-master\\test-pratico-master.csproj",
         "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gabriel\\Documents\\Projetos\\test-pratico-master\\obj\\",
+        "outputPath": "c:\\Users\\Gabriel\\Documents\\Projetos\\test-pratico-master\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

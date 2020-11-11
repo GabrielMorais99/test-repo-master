@@ -47,6 +47,7 @@ namespace test_pratico_master
                             if (cidGoGo == "cidadeC")
                             {
                                 Console.WriteLine("Distancia da rota é 9 , cidadeA até cidadeB ao cidade C");
+                                Console.WriteLine("Serão 3 rotas possiveis: A para C(via B,C,D) , A para C(via D,C,D); e A para C(via D,E,B)")
                             }
                             else
                             {
@@ -79,8 +80,8 @@ namespace test_pratico_master
                             if (cidGoGo == "cidadeC")
                             {
                                 Console.WriteLine("Distancia da rota é 13 , cidadeA até cidadeB ao cidade C");
-                            }
 
+                            }
                         }
                         else
                         {
@@ -127,6 +128,25 @@ namespace test_pratico_master
                         Console.WriteLine("Valor Inválido");
                     }
                     break;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                 case "cidadeB":
 
