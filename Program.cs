@@ -47,19 +47,21 @@ namespace test_pratico_master
                             if (cidGoGo == "cidadeC")
                             {
                                 Console.WriteLine("Distancia da rota é 9 , cidadeA até cidadeB ao cidade C");
-                                Console.WriteLine("Serão 3 rotas possiveis: A para C(via B,C,D) , A para C(via D,C,D); e A para C(via D,E,B)")
+                                Console.WriteLine("Serão 3 rotas possiveis: A para C(via B,C,D) , A para C(via D,C,D); e A para C(via D,E,B");
+                                Console.WriteLine("Distância de 3");
+                                Console.WriteLine("\n");
+                                Console.WriteLine("O Tamanho (da menor distancia) de A para C ");
+                                Console.WriteLine("Distância de 8");
                             }
                             else
                             {
                                 Console.WriteLine("Rota não registrada");
-
                             }
                         }
                         else
                         {
                             break;
                         }
-
                     }
                     else if (cidGo == "cidadeC")
                     {
@@ -129,35 +131,21 @@ namespace test_pratico_master
                     }
                     break;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 case "cidadeB":
 
                     Console.WriteLine("Qual cidade você irá  (ex: cidadeA,etc..)");
                     cidGo = Console.ReadLine();
-
                     if (cidGo == "cidadeA")
                     {
                         Console.WriteLine("se houver , Distancia da rota é 5 , cidadeB até cidadeB ");
                         Console.WriteLine("Deseja adicionar mais uma rota? sim digite 's'");
                         resp = Console.ReadLine();
+                    }
+                    if (cidGo == "cidadeB")
+                    {
+                        Console.WriteLine("o Tamanho da menor distancia B para B");
+                        Console.WriteLine("Distância de 9");
+
                     }
                     else if (cidGo == "cidadeC")
                     {
@@ -202,6 +190,7 @@ namespace test_pratico_master
                             cidGoGo = Console.ReadLine();
                             if (cidGoGo == "cidadeC")
                             {
+                                Console.WriteLine("distancia de 2")
                                 Console.WriteLine("Serão duas rotas possíveis: C-D-C (2 paradas) e C-E-B-C (3 paradas).");
                             }
                         }
@@ -228,6 +217,11 @@ namespace test_pratico_master
                         {
                             break;
                         }
+                    }
+                    else if (cidGo == "cidadeC")
+                    {
+                        Console.WriteLine("Serão as rotas segintes: C-D-C  e C-E-B-C , CEBCDC , CDCEBC, CDEBC , CEBCEBC.");
+                        Console.WriteLine("Distancia de 7");
                     }
                     else if (cidGo == "cidadeD")
                     {
