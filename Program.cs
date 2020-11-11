@@ -188,9 +188,9 @@ namespace test_pratico_master
                         {
                             Console.WriteLine("Qual seria esta rota? : (ex: cidadeA,etc..)");
                             cidGoGo = Console.ReadLine();
-                            if (cidGoGo == "cidadeC")
+                            if (cidGoGo == "cidadeC") ;
                             {
-                                Console.WriteLine("distancia de 2")
+                                Console.WriteLine("distancia de 2");
                                 Console.WriteLine("Serão duas rotas possíveis: C-D-C (2 paradas) e C-E-B-C (3 paradas).");
                             }
                         }
